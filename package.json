@@ -9,18 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.14"
+    "next": "^15.0.0-canary.177",
+    "react": "^19.0.0-rc-0751fac7-20241002",
+    "react-dom": "^19.0.0-rc-0751fac7-20241002",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/forms": "^0.5.9",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "clsx": "^2.1.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.14"
+    "eslint-config-next": "^15.0.0-canary.177",
+    "postcss": "^8",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
